@@ -1,0 +1,6 @@
+  int maiin() { print fact(10); 100 }
+
+  int fact(int n) {
+    if (n == 0)
+    then { 1 }
+    else { (n * fact((n - 1))) } }
